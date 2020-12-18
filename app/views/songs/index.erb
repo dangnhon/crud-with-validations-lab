@@ -1,0 +1,18 @@
+<h1>All Songs</h1> 
+
+
+<ul>
+    <% @songs.each do |attribute| %> 
+        <li>
+        <%= attribute.title %> 
+        <%= attribute.released %> 
+        <%= attribute.release_year %> 
+        <%= attribute.artist_name %> 
+        <%= attribute.genre %> 
+        </li>
+
+    <% end %> 
+
+ </ul> 
+
+
